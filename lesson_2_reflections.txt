@@ -1,0 +1,12 @@
+omg. here are my lesson 2 reflections!
+
+How do the diagrams help you visualize the branch structure?
+The diagrams from the 'git log --graph' command give you an overview
+of the the branches you have visibility of. They allow you to see
+visually where they break from one another, how many commits are in each branch 
+and the labels in each.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+merging two branches together takes all the changes that have been made between
+the tips of both branches and puts them into a new commit. 
