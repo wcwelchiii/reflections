@@ -10,3 +10,11 @@ What is the result of merging two branches together? Why do we represent it in t
 diagram the way we do?
 merging two branches together takes all the changes that have been made between
 the tips of both branches and puts them into a new commit. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Pros: automatic merging saves time because Git is smart about what changes
+should stay from each branch by comparing commits from each branch with the
+first common ancestor of each. Cons: you may end up with weird code if the
+commits from each branch aren't compatible. only manually merging by someone who
+knew the whole space would do that well.
