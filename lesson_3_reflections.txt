@@ -5,3 +5,10 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 You can run git status or git diff to know how much work you did compared 
 to the last known state of the remote repo
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+Shared word documents? passing back and forth zip files. it would be a 
+lot harder to track the history of the repo, much harder to do and track 
+code reviews, and harder to go back to previous states of the code. it 
+would be a lot easier to make changes though.
