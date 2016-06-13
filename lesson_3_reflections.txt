@@ -12,3 +12,10 @@ Shared word documents? passing back and forth zip files. it would be a
 lot harder to track the history of the repo, much harder to do and track 
 code reviews, and harder to go back to previous states of the code. it 
 would be a lot easier to make changes though.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+When you're working with other people or on software that is running live.
+It's more work to create the seperate branch and work in it (with the 
+extra pull, merge, push, and pull request) but it is a safer way to 
+collaborate.
