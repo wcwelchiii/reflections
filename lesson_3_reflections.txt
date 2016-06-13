@@ -1,2 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 Anytime you're collaborating with other people. Or you working on more than one machine.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+You can run git status or git diff to know how much work you did compared 
+to the last known state of the remote repo
